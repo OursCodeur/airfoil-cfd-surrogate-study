@@ -1,0 +1,21 @@
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+extend-exclude = [
+  ".venv",
+  ".matplotlib-cache",
+  "run",
+]
+
+[tool.ruff.lint]
+select = [
+  "B",
+  "E",
+  "F",
+  "I",
+  "SIM",
+  "UP",
+]
+
+[tool.ruff.lint.per-file-ignores]
+"app.py" = ["E402"]

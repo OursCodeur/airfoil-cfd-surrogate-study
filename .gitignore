@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+.ruff_cache/
+.streamlit/
+.matplotlib-cache/
+.idea/
+*.pyc
+.DS_Store
+run/
+data/raw_su2/
